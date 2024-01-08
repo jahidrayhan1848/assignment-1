@@ -1,0 +1,58 @@
+ /* font  */
+
+ @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+
+ * {
+     margin: 0;
+     padding: 0;
+     font-family: 'Lato', sans-serif;
+ }
+.container{
+   
+    background-image: url("../images/Banner\ Image.png");
+    height: 600px;
+    background-repeat: no-repeat;
+    max-width: 1320px;
+   margin: 20px auto;
+   border-radius: 16px;
+   background: linear-gradient(180deg)
+   
+   
+   
+
+}
+.container h5{
+    color: #FFF;
+    
+
+text-align: center;
+font-family: Merriweather;
+font-size: 32px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.container h1{
+    color: #FFF;
+  
+text-align: center;
+
+font-size: 72px;
+
+font-weight: 900;
+
+
+}
+.banner-text{
+    padding-top: 200px;
+}
+  
+    
+
+ 
+    
+           
+           
+ 
+
