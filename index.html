@@ -4,37 +4,51 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>happy New Year</title>
-    <link rel="stylesheet" href="styles/styles.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
 </head>
 <body>
-    <header>
-        
-           <div class="container">
-           <div class="banner-text">
-           
-            <h5>Happy New Year</h5>
-            <h1>New Year Party <br> Celebration</h1>
-           </div>
-           
-           </div> 
+     <!-- Navigation (Navbar) -->
+    <nav class="fixed w-full z-[100] bg-[#FDFCFB]/90 backdrop-blur-md border-b border-[#E5E1DA]">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-20">
+                <div class="flex items-center gap-3">
+                    <div class="w-10 h-10 bg-[#1A1C19] flex items-center justify-center">
+                        <i class="fas fa-camera text-white text-lg"></i>
+                    </div>
+                    <span class="logo-text text-xl font-bold tracking-tight text-[#1A1C19]">Chobi Ghore</span>
+                </div>
 
-         
+                <!-- Desktop Menu -->
+                <div class="hidden md:flex items-center space-x-10">
+                    <a href="#home" class="nav-link text-xs uppercase tracking-widest font-semibold">Home</a>
+                    <a href="#about" class="nav-link text-xs uppercase tracking-widest font-semibold">Artist</a>
+                    <a href="#gallery" class="nav-link text-xs uppercase tracking-widest font-semibold">Gallery</a>
+                    <a href="#process" class="nav-link text-xs uppercase tracking-widest font-semibold">Process</a>
+                    <a href="#services" class="nav-link text-xs uppercase tracking-widest font-semibold">Services</a>
+                    <a href="#contact" class="px-8 py-3 bg-[#1A1C19] text-white text-[10px] uppercase font-bold tracking-widest hover:bg-[#AF6B58] transition-colors">
+                        Book a Session
+                    </a>
+                </div>
 
-    </header>
- <main>
-    <section>
-        <div class="text">
-            <h1>65% OFF</h1>
-            <p>OUR HOLIDAY DEALS ARE BETTER</p>
-            <h2>ALL CATEGORIES</h2>
-            <img src="images/New Year Photo.png" alt="">
+                <!-- Mobile Menu Button -->
+                <button id="mobile-menu-button" class="md:hidden text-[#1A1C19] p-2 focus:outline-none">
+                    <i class="fas fa-bars text-xl" id="menu-icon"></i>
+                </button>
+            </div>
         </div>
 
-    </section>
+        <!-- Mobile Menu Overlay -->
+        <div id="mobile-menu" class="fixed inset-x-0 top-20 bg-white border-b border-[#E5E1DA] md:hidden z-[99]">
+            <div class="flex flex-col p-8 space-y-6 text-center">
+                <a href="#home" class="text-xs uppercase tracking-[0.3em] font-bold py-2">Home</a>
+                <a href="#about" class="text-xs uppercase tracking-[0.3em] font-bold py-2">Artist</a>
+                <a href="#gallery" class="text-xs uppercase tracking-[0.3em] font-bold py-2">Gallery</a>
+                <a href="#process" class="text-xs uppercase tracking-[0.3em] font-bold py-2">Process</a>
+                <a href="#contact" class="px-8 py-4 bg-[#1A1C19] text-white text-xs uppercase font-bold tracking-widest">Book Now</a>
+            </div>
+        </div>
+    </nav>
 
- </main>
- <footer>
-
- </footer>   
 </body>
 </html>
